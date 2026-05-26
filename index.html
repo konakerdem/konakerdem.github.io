@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erdem Konak — Software Engineer & Business Analyst</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="bg-mesh"></div>
+<div class="noise"></div>
+
+<!-- Nav progress -->
+<div id="nav-progress"></div>
+
+<div id="konami-hint" style="display:none"></div>
+
+<!-- ========== NAV ========== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">EK<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:erdem.konak60@gmail.com" class="nav-cta">Hire Me</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#about" onclick="closeMobile()">About</a>
+  <a href="#skills" onclick="closeMobile()">Skills</a>
+  <a href="#experience" onclick="closeMobile()">Experience</a>
+  <a href="#education" onclick="closeMobile()">Education</a>
+  <a href="#certifications" onclick="closeMobile()">Certifications</a>
+  <a href="#contact" onclick="closeMobile()">Contact</a>
+</div>
+
+<!-- ========== HERO ========== -->
+<section id="hero">
+  <canvas id="particle-canvas"></canvas>
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-eyebrow">Based in Istanbul, Turkey</div>
+        <h1 class="hero-name">
+          Erdem<br>
+          <span class="line2">Konak</span>
+        </h1>
+        <div class="hero-typing">
+          <span id="typed-text"></span><span class="typing-cursor"></span>
+        </div>
+        <p class="hero-desc">
+          Software Engineering graduate passionate about bridging business and technology. I specialize in business analysis, UI/UX prototyping, and workflow automation — transforming complex requirements into elegant, user-centered solutions.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">
+            <span>✉</span> Contact Me
+          </a>
+          <a href="#experience" class="btn-outline">
+            <span>↗</span> View Experience
+          </a>
+
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num"><span class="counter" data-target="4">0</span><span>+</span></div>
+            <div class="stat-label">Internships</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num"><span class="counter" data-target="6">0</span><span>+</span></div>
+            <div class="stat-label">Technologies</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num"><span class="counter" data-target="4">0</span></div>
+            <div class="stat-label">Years of Study</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="avatar-wrapper">
+          
+          <div class="avatar-bg"></div>
+          
+          <div class="avatar-initials">
+            <div class="avatar-photo">
+              <img src="fotograf.jpg" alt="Erdem Konak">
+            </div>
+            <div class="avatar-name">Erdem Konak</div>
+            <div class="avatar-role">Software Engineer | Business Analyst</div>
+          </div>
+
+          <div class="float-badge badge-top">📊 Agile & Scrum</div>
+          <div class="float-badge badge-bottom">⚡ Software Development</div>
+          
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-label">01 — Who I Am</div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <h2 class="section-title">About Me</h2>
+        <p>
+          I'm a Software Engineering graduate from Doğuş University (2025) with a strong foundation in software development and business process analysis.My hybrid skill set enables me to effectively bridge communication between technical and business teams.
+        </p>
+        <p>
+         In Agile environments, I translate ambiguous business requirements into clear technical specifications and design user-centered prototypes using Figma. As a Workflow Application Specialist, I analyze and validate enterprise business processes across HR, Sales, Procurement, and Customer Account domains on platforms such as eBA and Bimser Synergy.
+        </p>
+        <p>
+          I am driven by the belief that great software emerges at the intersection of empathy, logic, and craftsmanship — a mindset I bring to every project I work on.
+        </p>
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <div class="highlight-icon">🔍</div>
+            <div>
+              <div class="highlight-title">Requirements Analysis</div>
+              <div class="highlight-desc">Translating complex business needs into clear, actionable technical specifications.</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon">🎨</div>
+            <div>
+              <div class="highlight-title">UI/UX Prototyping</div>
+              <div class="highlight-desc">Designing user-centered interfaces with Figma that guide efficient development.</div>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon">⚙️</div>
+            <div>
+              <div class="highlight-title">Workflow Application Specialist</div>
+              <div class="highlight-desc">Analyzing HR, Sales, Procurement & Customer Account processes on eBA and Bimser Synergy.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <div class="section-label" style="margin-bottom:1.5rem;">Journey</div>
+        <div class="timeline">
+          <div class="timeline-line"></div>
+          <div class="timeline-item">
+            <div class="timeline-dot active"></div>
+            <div class="timeline-date">Jul 2025 — Present</div>
+            <div class="timeline-title">Business Analyst Intern</div>
+            <div class="timeline-sub">Sütaş Süt Ürünleri A.Ş · Istanbul</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Jan 2025 — Jun 2025</div>
+            <div class="timeline-title">Research Assistant Intern</div>
+            <div class="timeline-sub">Value Solution Partners · Istanbul</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Sep 2024 — Jan 2025</div>
+            <div class="timeline-title">IT Support Intern</div>
+            <div class="timeline-sub">Value Solution Partners · Istanbul</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Aug 2024 — Sep 2024</div>
+            <div class="timeline-title">IT Infrastructure Intern</div>
+            <div class="timeline-sub">Netcore Bilişim · Istanbul</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Oct 2023 — Aug 2024</div>
+            <div class="timeline-title">IT Support Intern</div>
+            <div class="timeline-sub">Value Solution Partners · Istanbul</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">Sep 2021 — Sep 2025</div>
+            <div class="timeline-title">B.Sc. Software Engineering</div>
+            <div class="timeline-sub">Doğuş University · Istanbul</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SKILLS ========== -->
+<section id="skills" class="section">
+  <div class="container">
+    <div class="section-label reveal">02 — What I Know</div>
+    <h2 class="section-title reveal">Technology &amp; Expertise</h2>
+    <p class="section-subtitle reveal">A hybrid engineering &amp; analysis toolkit — built across academic study, enterprise internships, and self-driven learning.</p>
+
+    <!-- SVG connector lines between modules -->
+    <div class="expertise-map reveal">
+      <svg class="em-connectors" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#63b3ed;stop-opacity:0"/>
+            <stop offset="50%" style="stop-color:#b794f4;stop-opacity:0.5"/>
+            <stop offset="100%" style="stop-color:#63b3ed;stop-opacity:0"/>
+          </linearGradient>
+          <linearGradient id="lineGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#63b3ed;stop-opacity:0"/>
+            <stop offset="50%" style="stop-color:#76e4f7;stop-opacity:0.4"/>
+            <stop offset="100%" style="stop-color:#63b3ed;stop-opacity:0"/>
+          </linearGradient>
+        </defs>
+      </svg>
+
+      <!-- 2x3 grid -->
+      <div class="em-grid">
+
+        <!-- M1: Backend Engineering -->
+        <div class="em-module reveal" data-module="1" style="--mod-hue: 217deg; --mod-sat: 80%; --mod-accent: #63b3ed;">
+          <div class="em-module-inner">
+            <div class="em-header">
+              <div class="em-icon-wrap">
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="em-cat-icon">
+                  <rect width="40" height="40" rx="10" fill="rgba(99,179,237,0.1)"/>
+                  <path d="M8 20L16 12L24 20L16 28L8 20Z" stroke="#63b3ed" stroke-width="1.5" fill="none"/>
+                  <path d="M20 14L28 20L20 26" stroke="#b794f4" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                  <circle cx="16" cy="20" r="2" fill="#63b3ed"/>
+                  <circle cx="28" cy="20" r="2" fill="#b794f4"/>
+                </svg>
+              </div>
+              <div>
+                <div class="em-module-num">01</div>
+                <div class="em-module-title">Backend Engineering</div>
+              </div>
+            </div>
+            <div class="em-skills-logos">
+              <div class="em-skill-item" data-level="Core">
+                <div class="em-logo-wrap">
+                  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="em-logo">
+                    <path d="M16 2L2 8v16l14 6 14-6V8L16 2z" fill="none" stroke="#9B59B6" stroke-width="1.5"/>
+                    <text x="16" y="20" text-anchor="middle" fill="#9B59B6" font-size="9" font-weight="bold" font-family="monospace">C#</text>
+                  </svg>
+                  <span class="em-level-badge core">Core</span>
+                </div>
+                <span class="em-skill-name">C# / ASP.NET</span>
+              </div>
+              <div class="em-skill-item" data-level="Core">
+                <div class="em-logo-wrap">
+                  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="em-logo">
+                    <rect x="4" y="8" width="24" height="16" rx="3" fill="none" stroke="#CC2927" stroke-width="1.5"/>
+                    <path d="M10 14h12M10 18h8" stroke="#CC2927" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="24" cy="18" r="2" fill="#CC2927"/>
+                  </svg>
+                  <span class="em-level-badge core">Core</span>
+                </div>
+                <span class="em-skill-name">MS SQL / EF</span>
+              </div>
+              <div class="em-skill-item" data-level="Familiar">
+                <div class="em-logo-wrap">
+                  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="em-logo">
+                    <path d="M16 4C9.4 4 4 9.4 4 16s5.4 12 12 12 12-5.4 12-12S22.6 4 16 4z" fill="none" stroke="#E76F00" stroke-width="1.5"/>
+                    <text x="16" y="20" text-anchor="middle" fill="#E76F00" font-size="8" font-weight="bold" font-family="monospace">JV</text>
+                  </svg>
+                  <span class="em-level-badge familiar">Familiar</span>
+                </div>
+                <span class="em-skill-name">Java / Selenium</span>
+              </div>
+            </div>
+          </div>
+          <div class="em-glow"></div>
+        </div>
+
+        <!-- M2: Modern Frontend -->
+        <div class="em-module reveal reveal-delay-1" data-module="2" style="--mod-hue: 190deg; --mod-sat: 75%; --mod-accent: #76e4f7;">
+          <div class="em-module-inner">
+            <div class="em-header">
+              <div class="em-icon-wrap">
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="em-cat-icon">
+                  <rect width="40" height="40" rx="10" fill="rgba(118,228,247,0.1)"/>
+                  <circle cx="20" cy="20" r="5" stroke="#76e4f7" stroke-width="1.5"/>
+                  <ellipse cx="20" cy="20" rx="12" ry="5" stroke="#76e4f7" stroke-width="1.2" fill="none"/>
+                  <ellipse cx="20" cy="20" rx="12" ry="5" stroke="#76e4f7" stroke-width="1.2" fill="none" transform="rotate(60 20 20)"/>
+                  <ellipse cx="20" cy="20" rx="12" ry="5" stroke="#76e4f7" stroke-width="1.2" fill="none" transform="rotate(120 20 20)"/>
+                </svg>
+              </div>
+              <div>
+                <div class="em-module-num">02</div>
+                <div class="em-module-title">Modern Frontend</div>
+              </div>
+            </div>
+            <div class="em-skills-logos">
+              <div class="em-skill-item" data-level="Familiar">
+                <div class="em-logo-wrap">
+                  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="em-logo">
+                    <circle cx="16" cy="16" r="5" fill="none" stroke="#61DAFB" stroke-width="1.5"/>
+                    <ellipse cx="16" cy="16" rx="13" ry="5" stroke="#61DAFB" stroke-width="1.2" fill="none"/>
+                    <ellipse cx="16" cy="16" rx="13" ry="5" stroke="#61DAFB" stroke-width="1.2" fill="none" transform="rotate(60 16 16)"/>
+                    <ellipse cx="16" cy="16" rx="13" ry="5" stroke="#61DAFB" stroke-width="1.2" fill="none" transform="rotate(120 16 16)"/>
+                  </svg>
+                  <span class="em-level-badge familiar">Familiar</span>
+                </div>
+                <span class="em-skill-name">React</span>
+              </div>
+              <div class="em-skill-item" data-level="Core">
+                <div class="em-logo-wrap">
+                  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="em-logo">
+                    <rect x="4" y="4" width="11" height="11" rx="2" fill="#F24E1E" opacity="0.9"/>
+                    <rect x="17" y="4" width="11" height="11" rx="2" fill="#FF7262" opacity="0.9"/>
+                    <rect x="4" y="17" width="11" height="11" rx="2" fill="#A259FF" opacity="0.9"/>
+                    <rect x="17" y="17" width="11" height="11" rx="2" fill="#1ABCFE" opacity="0.9"/>
+                  </svg>
+                  <span class="em-level-badge core">Core</span>
+                </div>
+                <span class="em-skill-name">Figma UI/UX</span>
+              </div>
+            </div>
+          </div>
+          <div class="em-glow"></div>
+        </div>
+
+        <!-- M3: Cloud & BaaS -->
+        <div class="em-module reveal reveal-delay-2" data-module="3" style="--mod-hue: 155deg; --mod-sat: 70%; --mod-accent: #3ECF8E;">
+          <div class="em-module-inner">
+            <div class="em-header">
+              <div class="em-icon-wrap">
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="em-cat-icon">
+                  <rect width="40" height="40" rx="10" fill="rgba(62,207,142,0.1)"/>
+                  <path d="M10 24c0-4 3-7 7-7 .5 0 1 .1 1.5.2C19.5 15 22 13 25 13c3.9 0 7 3.1 7 7 0 .7-.1 1.4-.3 2H10.3C10.1 21.4 10 20.7 10 20z" stroke="#3ECF8E" stroke-width="1.5" fill="none"/>
+                </svg>
+              </div>
+              <div>
+                <div class="em-module-num">03</div>
+                <div class="em-module-title">Cloud &amp; BaaS</div>
+              </div>
+            </div>
+            <div class="em-skills-logos">
+              <div class="em-skill-item" data-level="Familiar">
+                <div class="em-logo-wrap">
+                  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="em-logo">
+                    <path d="M16 4L5 10v12l11 6 11-6V10L16 4z" fill="none" stroke="#3ECF8E" stroke-width="1.5"/>
+                    <path d="M16 4v12M5 10l11 6 11-6" stroke="#3ECF8E" stroke-width="1" stroke-dasharray="2,2"/>
+                  </svg>
+                  <span class="em-level-badge familiar">Familiar</span>
+                </div>
+                <span class="em-skill-name">Supabase</span>
+              </div>
+            </div>
+          </div>
+          <div class="em-glow"></div>
+        </div>
+
+        <!-- M4: BPM & Workflow -->
+        <div class="em-module reveal reveal-delay-1" data-module="4" style="--mod-hue: 270deg; --mod-sat: 75%; --mod-accent: #b794f4;">
+          <div class="em-module-inner">
+            <div class="em-header">
+              <div class="em-icon-wrap">
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="em-cat-icon">
+                  <rect width="40" height="40" rx="10" fill="rgba(183,148,244,0.1)"/>
+                  <rect x="7" y="13" width="10" height="8" rx="2" stroke="#b794f4" stroke-width="1.5" fill="none"/>
+                  <rect x="23" y="13" width="10" height="8" rx="2" stroke="#b794f4" stroke-width="1.5" fill="none"/>
+                  <rect x="15" y="24" width="10" height="7" rx="2" stroke="#b794f4" stroke-width="1.5" fill="none"/>
+                  <path d="M12 21v5h8M28 21v5h-8" stroke="#b794f4" stroke-width="1" stroke-dasharray="2,2"/>
+                </svg>
+              </div>
+              <div>
+                <div class="em-module-num">04</div>
+                <div class="em-module-title">BPM &amp; Workflow</div>
+              </div>
+            </div>
+            <div class="em-skills-logos">
+              <div class="em-skill-item" data-level="Core">
+                <div class="em-logo-wrap">
+                  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="em-logo">
+                    <path d="M6 8h20v16H6z" fill="none" stroke="#b794f4" stroke-width="1.5" rx="2"/>
+                    <path d="M10 13h12M10 17h8M10 21h6" stroke="#b794f4" stroke-width="1.2" stroke-linecap="round"/>
+                    <rect x="18" y="15" width="6" height="8" rx="1" fill="rgba(183,148,244,0.2)" stroke="#b794f4" stroke-width="1"/>
+                  </svg>
+                  <span class="em-level-badge core">Core</span>
+                </div>
+                <span class="em-skill-name">eBA Platform</span>
+              </div>
+              <div class="em-skill-item" data-level="Core">
+                <div class="em-logo-wrap">
+                  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="em-logo">
+                    <circle cx="16" cy="16" r="10" fill="none" stroke="#76e4f7" stroke-width="1.5"/>
+                    <path d="M16 10v6l4 3" stroke="#76e4f7" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="16" cy="16" r="2" fill="#76e4f7"/>
+                  </svg>
+                  <span class="em-level-badge core">Core</span>
+                </div>
+                <span class="em-skill-name">Bimser Synergy</span>
+              </div>
+            </div>
+          </div>
+          <div class="em-glow"></div>
+        </div>
+
+        <!-- M5: Domain Analysis -->
+        <div class="em-module reveal reveal-delay-2" data-module="5" style="--mod-hue: 40deg; --mod-sat: 90%; --mod-accent: #f6ad55;">
+          <div class="em-module-inner">
+            <div class="em-header">
+              <div class="em-icon-wrap">
+                <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="em-cat-icon">
+                  <rect width="40" height="40" rx="10" fill="rgba(246,173,85,0.1)"/>
+                  <circle cx="20" cy="14" r="5" stroke="#f6ad55" stroke-width="1.5" fill="none"/>
+                  <path d="M10 30c0-5.5 4.5-10 10-10s10 4.5 10 10" stroke="#f6ad55" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                  <path d="M27 19l3 3-3 3" stroke="#f6ad55" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <div class="em-module-num">05</div>
+                <div class="em-module-title">Domain Analysis</div>
+              </div>
+            </div>
+            <div class="em-skills-logos">
+              <div class="em-skill-item" data-level="Core">
+                <div class="em-logo-wrap">
+                  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="em-logo">
+                    <path d="M6 10h20v4H6zM6 18h14v4H6z" fill="none" stroke="#f6ad55" stroke-width="1.3" rx="1"/>
+                    <circle cx="25" cy="20" r="3" fill="none" stroke="#f6ad55" stroke-width="1.3"/>
+                    <path d="M27 22l3 3" stroke="#f6ad55" stroke-width="1.3" stroke-linecap="round"/>
+                  </svg>
+                  <span class="em-level-badge core">Core</span>
+                </div>
+                <span class="em-skill-name">Req. Analysis</span>
+              </div>
+              <div class="em-skill-item" data-level="Core">
+                <div class="em-logo-wrap">
+                  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="em-logo">
+                    <path d="M8 16c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="#f6ad55" stroke-width="1.3" fill="none" stroke-linecap="round"/>
+                    <path d="M10 18l3 3 5-7" stroke="#f6ad55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <path d="M4 16h5M23 16h5" stroke="#f6ad55" stroke-width="1.2" stroke-linecap="round"/>
+                  </svg>
+                  <span class="em-level-badge core">Core</span>
+                </div>
+                <span class="em-skill-name">UAT</span>
+              </div>
+              <div class="em-skill-item" data-level="Core">
+                <div class="em-logo-wrap">
+                  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="em-logo">
+                    <circle cx="16" cy="16" r="9" stroke="#f6ad55" stroke-width="1.3" fill="none"/>
+                    <path d="M16 10v3M16 19v3M10 16h3M19 16h3" stroke="#f6ad55" stroke-width="1.2" stroke-linecap="round"/>
+                    <circle cx="16" cy="16" r="3" fill="none" stroke="#f6ad55" stroke-width="1.3"/>
+                  </svg>
+                  <span class="em-level-badge core">Core</span>
+                </div>
+                <span class="em-skill-name">Agile / Scrum</span>
+              </div>
+              <div class="em-skill-item" data-level="Familiar">
+                <div class="em-logo-wrap">
+                  <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="em-logo">
+                    <path d="M8 22l4-10 4 7 3-4 5 7" stroke="#f6ad55" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                  </svg>
+                  <span class="em-level-badge familiar">Familiar</span>
+                </div>
+                <span class="em-skill-name">Procurement</span>
+              </div>
+            </div>
+          </div>
+          <div class="em-glow"></div>
+        </div>
+
+        <!-- M6: Proficiency Key -->
+        <div class="em-module em-module-legend reveal reveal-delay-3" data-module="6" style="--mod-hue: 220deg; --mod-sat: 15%; --mod-accent: #556677;">
+          <div class="em-module-inner em-legend-inner">
+            <div class="em-legend-title">Proficiency Key</div>
+            <div class="em-legend-blocks">
+              <div class="em-legend-block">
+                <div class="em-legend-dot em-legend-dot--core"></div>
+                <div class="em-legend-text">
+                  <span class="em-legend-label">Core</span>
+                  <span class="em-legend-desc">Actively used in professional contexts</span>
+                </div>
+              </div>
+              <div class="em-legend-block">
+                <div class="em-legend-dot em-legend-dot--familiar"></div>
+                <div class="em-legend-text">
+                  <span class="em-legend-label">Familiar</span>
+                  <span class="em-legend-desc">Working knowledge &amp; project exposure</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="em-glow"></div>
+        </div>
+
+      </div><!-- .em-grid -->
+    </div><!-- .expertise-map -->
+
+  </div>
+</section>
+
+<!-- ========== EXPERIENCE ========== -->
+<section id="experience" class="section">
+  <div class="container">
+    <div class="section-label reveal">03 — Work History</div>
+    <h2 class="section-title reveal">Professional Experience</h2>
+    <p class="section-subtitle reveal">Real-world experience across business analysis, IT infrastructure, and research domains.</p>
+
+    <div class="exp-list">
+
+      <!-- Sütaş -->
+      <div class="exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">Sütaş Süt Ürünleri A.Ş <span class="exp-badge-current">Current</span></div>
+            <div class="exp-position">Business Analyst Intern · Istanbul, Turkey</div>
+          </div>
+          <div class="exp-date">Jul 2025 — Present</div>
+        </div>
+        <ul class="exp-duties">
+          <li>Analyze business requirements and prepare structured technical documentation in Agile project environments, collaborating closely with cross-functional teams.</li>
+          <li>Translate stakeholder needs into clear technical specifications; design user-centered UI/UX prototypes in Figma to accelerate development alignment.</li>
+          <li>Work as a Workflow Application Specialist on eBA and Bimser Synergy platforms; analyze and validate business processes across HR, Sales, Procurement and Customer Account domains.</li>
+          <li>Execute User Acceptance Testing (UAT) for workflow applications and communicate findings to stakeholders.</li>
+          <li>Developed foundational test scenarios using Java and Selenium WebDriver.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="exp-tag">Agile</span>
+          <span class="exp-tag">Requirements Analysis</span>
+          <span class="exp-tag">Figma</span>
+          <span class="exp-tag">UAT</span>
+          <span class="exp-tag">eBA</span>
+          <span class="exp-tag">Bimser Synergy</span>
+          <span class="exp-tag">HR Workflows</span>
+          <span class="exp-tag">Sales Workflows</span>
+          <span class="exp-tag">Procurement</span>
+          <span class="exp-tag">Customer Accounts</span>
+          <span class="exp-tag">Java</span>
+          <span class="exp-tag">Selenium</span>
+        </div>
+      </div>
+
+      <!-- VSP: IT Support (Sep 2024–Jan 2025) + Research Assistant (Jan–Jun 2025) -->
+      <div class="exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">Value Solution Partners</div>
+            <div class="exp-position">Istanbul, Turkey · Sep 2024 — Jun 2025</div>
+          </div>
+          <div class="exp-date">Sep 2024 — Jun 2025</div>
+        </div>
+
+        <!-- Research Assistant -->
+        <div style="margin-bottom:1.4rem;">
+          <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border);">
+            <div style="width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 6px var(--accent);flex-shrink:0;"></div>
+            <span style="font-family:var(--font-display);font-weight:700;font-size:0.95rem;color:var(--text-primary);">Research Assistant Intern</span>
+            <span style="font-family:var(--font-mono);font-size:0.65rem;color:var(--accent);background:rgba(99,179,237,0.1);border:1px solid rgba(99,179,237,0.2);border-radius:99px;padding:0.15rem 0.6rem;margin-left:auto;">Jan 2025 — Jun 2025</span>
+          </div>
+          <ul class="exp-duties">
+            <li>Conducted in-depth market research and competitive company analyses to support strategic business decisions.</li>
+            <li>Developed professional presentations and reports for internal and client-facing deliverables.</li>
+            <li>Expanded the company's professional network through active industry relationship-building and outreach.</li>
+          </ul>
+        </div>
+
+        <!-- IT Support -->
+        <div>
+          <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.75rem;padding-bottom:0.5rem;border-bottom:1px solid var(--border);">
+            <div style="width:7px;height:7px;border-radius:50%;background:var(--accent-3);box-shadow:0 0 6px var(--accent-3);flex-shrink:0;"></div>
+            <span style="font-family:var(--font-display);font-weight:700;font-size:0.95rem;color:var(--text-primary);">IT Support Intern</span>
+            <span style="font-family:var(--font-mono);font-size:0.65rem;color:var(--accent-3);background:rgba(183,148,244,0.1);border:1px solid rgba(183,148,244,0.2);border-radius:99px;padding:0.15rem 0.6rem;margin-left:auto;">Sep 2024 — Jan 2025</span>
+          </div>
+          <ul class="exp-duties">
+            <li>Continued providing comprehensive end-user IT support and infrastructure management, ensuring smooth daily operations and system reliability.</li>
+          </ul>
+        </div>
+
+        <div class="exp-tags" style="margin-top:1.2rem;">
+          <span class="exp-tag">Market Research</span>
+          <span class="exp-tag">Presentations</span>
+          <span class="exp-tag">Networking</span>
+          <span class="exp-tag">IT Support</span>
+          <span class="exp-tag">Presentations</span>
+          <span class="exp-tag">Active Directory</span>
+        </div>
+      </div>
+
+      <!-- Netcore -->
+      <div class="exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">Netcore Bilişim</div>
+            <div class="exp-position">IT Infrastructure Intern · Istanbul, Turkey</div>
+          </div>
+          <div class="exp-date">Aug 2024 — Sep 2024</div>
+        </div>
+        <ul class="exp-duties">
+          <li>Deployed a virtual domain environment using VirtualBox, gaining hands-on experience with virtualization technologies.</li>
+          <li>Configured and managed core network services including Active Directory, DHCP, DNS, and fundamental server settings.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="exp-tag">VirtualBox</span>
+          <span class="exp-tag">Active Directory</span>
+          <span class="exp-tag">DHCP</span>
+          <span class="exp-tag">DNS</span>
+          <span class="exp-tag">Server Administration</span>
+        </div>
+      </div>
+
+      <!-- VSP IT Support Oct 2023 - Aug 2024 -->
+      <div class="exp-card reveal">
+        <div class="exp-header">
+          <div>
+            <div class="exp-company">Value Solution Partners</div>
+            <div class="exp-position">IT Support Intern · Istanbul, Turkey</div>
+          </div>
+          <div class="exp-date">Oct 2023 — Aug 2024</div>
+        </div>
+        <ul class="exp-duties">
+          <li>Delivered end-user IT support across hardware and software, ensuring smooth day-to-day operations for the organization.</li>
+          <li>Onboarded new workstations to the corporate domain, managing hardware setup and system configuration.</li>
+          <li>Administered Active Directory environments including user account provisioning, Group Policy management, File Server configuration, and shared folder access permissions.</li>
+        </ul>
+        <div class="exp-tags">
+          <span class="exp-tag">IT Support</span>
+          <span class="exp-tag">Active Directory</span>
+          <span class="exp-tag">Group Policy</span>
+          <span class="exp-tag">File Server</span>
+          <span class="exp-tag">Hardware Setup</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== EDUCATION ========== -->
+<section id="education" class="section">
+  <div class="container">
+    <div class="section-label reveal">05 — Academic Background</div>
+    <h2 class="section-title reveal">Education</h2>
+    <p class="section-subtitle reveal">A solid academic foundation in software engineering and computer science principles.</p>
+
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-degree">Bachelor of Science in Software Engineering</div>
+        <div class="edu-school">Doğuş University</div>
+        <div class="edu-dates">September 2021 — September 2025 · Istanbul, Turkey</div>
+        <div class="edu-desc">
+          Comprehensive curriculum covering software architecture, algorithms, databases, object-oriented programming, and Agile methodologies. Completed capstone projects applying full-stack development and business analysis techniques in real-world scenarios.
+        </div>
+      </div>
+      <div class="edu-card reveal reveal-delay-1">
+        <div class="edu-icon">🏫</div>
+        <div class="edu-degree">High School Diploma</div>
+        <div class="edu-school">Atilla Uras Anatolian High School</div>
+        <div class="edu-dates">September 2016 — June 2020 · Istanbul, Turkey</div>
+        <div class="edu-desc">
+          Completed Anatolian high school education with a focus on mathematics and natural sciences, building the analytical foundations for a career in technology.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CERTIFICATIONS & LANGUAGES ========== -->
+<section id="certifications" class="section">
+  <div class="container">
+    <div class="section-label reveal">06 — Credentials</div>
+    <h2 class="section-title reveal">Certifications & Languages</h2>
+
+    <div class="cert-grid">
+      <div class="cert-card reveal">
+        <div class="cert-icon">📊</div>
+        <div>
+          <div class="cert-name">SCRUM</div>
+          <div class="cert-sub"><b>BTK AKADEMİ</b><br>Agile Methodology</div>
+        </div>
+      </div>
+    
+      <div class="cert-card reveal reveal-delay-1">
+        <div class="cert-icon">🔧</div>
+        <div>
+          <div class="cert-name"> C# Algorithm and Programming 101</div>
+          <div class="cert-sub"><b>Turkcell Akademi</b><br>Algorithm · Software Development</div>
+        </div>
+      </div>
+
+      <div class="cert-card reveal reveal-delay-2">
+        <div class="cert-icon">🔧</div>
+        <div>
+          <div class="cert-name"> C# Algorithm and Programming 201</div>
+          <div class="cert-sub"><b>Turkcell Akademi</b><br>Algorithm · Software Development</div>
+        </div>
+      </div>
+      
+        <div class="cert-card reveal reveal-delay-3">
+        <div class="cert-icon">🤖</div>
+        <div>
+          <div class="cert-name">Future Talent Program 101·201</div>
+          <div class="cert-sub"> <b>YGA and UP School</b><br> Artificial Intelligence · Green Tech <br>Automation</div>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div class="lang-grid" style="margin-top: 3rem;">
+      <div class="lang-card reveal">
+        <div class="lang-flag">🇹🇷</div>
+        <div class="lang-name">Turkish</div>
+        <div class="lang-level">Native</div>
+      </div>
+      <div class="lang-card reveal reveal-delay-1">
+        <div class="lang-flag">🇬🇧</div>
+        <div class="lang-name">English</div>
+        <div class="lang-level">B1 — Intermediate</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="section-label reveal">07 — Let's Connect</div>
+    <h2 class="section-title reveal">Get In Touch</h2>
+
+    <div class="contact-grid">
+      <div class="reveal">
+        <p>I'm currently open to new opportunities, collaborations, and conversations. Whether you have a project in mind or just want to say hello — my inbox is always open.</p>
+        <div class="contact-links">
+          <a href="mailto:erdem.konak60@gmail.com" class="contact-link">
+            <div class="contact-link-icon">✉</div>
+            <div>
+              <div class="contact-link-label">Email</div>
+              <div class="contact-link-val">erdem.konak60@gmail.com</div>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/erdem-konak-a71975225" target="_blank" class="contact-link">
+            <div class="contact-link-icon">in</div>
+            <div>
+              <div class="contact-link-label">LinkedIn</div>
+              <div class="contact-link-val">linkedin.com/in/erdem-konak-a71975225</div>
+            </div>
+          </a>
+          <a href="https://github.com/konakerdem" target="_blank" class="contact-link">
+            <div class="contact-link-icon">⌥</div>
+            <div>
+              <div class="contact-link-label">GitHub</div>
+              <div class="contact-link-val">github.com/konakerdem</div>
+            </div>
+          </a>
+          <a href="tel:+905369439366" class="contact-link">
+            <div class="contact-link-icon">📞</div>
+            <div>
+              <div class="contact-link-label">Phone</div>
+              <div class="contact-link-val">+90 536 943 93 66</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-2">
+        <div class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label class="form-label">Your Name</label>
+            <input class="form-input" type="text" placeholder="Jane Smith" id="f-name">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input class="form-input" type="email" placeholder="jane@example.com" id="f-email">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Subject</label>
+            <input class="form-input" type="text" placeholder="Project Opportunity" id="f-subject">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-textarea" placeholder="Tell me about your project or opportunity..." id="f-message"></textarea>
+          </div>
+          <button class="btn-primary" onclick="handleFormSubmit()" style="width:fit-content;">
+            <span>→</span> Send Message
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-copy">© 2026 Erdem Konak</div>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/erdem-konak-a71975225" target="_blank" class="footer-social" title="LinkedIn">in</a>
+        <a href="https://github.com/konakerdem" target="_blank" class="footer-social" title="GitHub">⌥</a>
+        <a href="mailto:erdem.konak60@gmail.com" class="footer-social" title="Email">✉</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+
+<!-- ========== SCRIPTS ========== -->
+<script>
+/* ---- Navbar scroll + progress bar ---- */
+const navbar = document.getElementById('navbar');
+const navProgress = document.getElementById('nav-progress');
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a');
+
+window.addEventListener('scroll', () => {
+  const scrollY = window.scrollY;
+  navbar.classList.toggle('scrolled', scrollY > 40);
+  document.getElementById('back-to-top').classList.toggle('visible', scrollY > 400);
+
+  // Progress bar
+  const docH = document.documentElement.scrollHeight - window.innerHeight;
+  navProgress.style.width = (scrollY / docH * 100) + '%';
+
+  // Active nav link
+  let current = '';
+  sections.forEach(s => { if (scrollY >= s.offsetTop - 120) current = s.id; });
+  navLinks.forEach(a => {
+    a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+  });
+});
+
+/* ---- Mobile menu ---- */
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobile-menu');
+hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+function closeMobile() { mobileMenu.classList.remove('open'); }
+
+/* ---- Typing animation ---- */
+const phrases = [
+  'Business Analyst',
+  'Workflow Specialist',
+  'Software Engineer'
+];
+let pi = 0, ci = 0, deleting = false;
+const typedEl = document.getElementById('typed-text');
+function type() {
+  const phrase = phrases[pi];
+  if (!deleting) {
+    typedEl.textContent = phrase.slice(0, ci + 1);
+    ci++;
+    if (ci === phrase.length) { deleting = true; setTimeout(type, 1600); return; }
+  } else {
+    typedEl.textContent = phrase.slice(0, ci - 1);
+    ci--;
+    if (ci === 0) { deleting = false; pi = (pi + 1) % phrases.length; }
+  }
+  setTimeout(type, deleting ? 60 : 90);
+}
+type();
+
+/* ---- Scroll reveal ---- */
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+/* ---- Counter animation ---- */
+function animateCounter(el) {
+  const target = parseInt(el.dataset.target);
+  const duration = 1500;
+  const step = target / (duration / 16);
+  let current = 0;
+  const timer = setInterval(() => {
+    current = Math.min(current + step, target);
+    el.textContent = Math.floor(current);
+    if (current >= target) clearInterval(timer);
+  }, 16);
+}
+const counterObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.querySelectorAll('.counter').forEach(animateCounter);
+      counterObserver.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.5 });
+document.querySelectorAll('.hero-stats').forEach(el => counterObserver.observe(el));
+
+/* ---- Contact form ---- */
+function handleFormSubmit() {
+  const name = document.getElementById('f-name').value.trim();
+  const email = document.getElementById('f-email').value.trim();
+  const subject = document.getElementById('f-subject').value.trim();
+  const message = document.getElementById('f-message').value.trim();
+  if (!name || !email || !message) {
+    alert('Please fill in your name, email, and message.');
+    return;
+  }
+  const mailto = `mailto:erdem.konak60@gmail.com?subject=${encodeURIComponent(subject || 'Portfolio Contact')}&body=${encodeURIComponent('From: ' + name + ' (' + email + ')\n\n' + message)}`;
+  window.location.href = mailto;
+}
+
+/* ---- Hero Particle System ---- */
+(function() {
+  const canvas = document.getElementById('particle-canvas');
+  const ctx = canvas.getContext('2d');
+  let W, H, particles = [];
+
+  function resize() {
+    W = canvas.width = canvas.offsetWidth;
+    H = canvas.height = canvas.offsetHeight;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  class Particle {
+    constructor() { this.reset(); }
+    reset() {
+      this.x = Math.random() * W;
+      this.y = Math.random() * H;
+      this.r = Math.random() * 1.5 + 0.3;
+      this.vx = (Math.random() - 0.5) * 0.3;
+      this.vy = (Math.random() - 0.5) * 0.3;
+      this.alpha = Math.random() * 0.5 + 0.1;
+      this.color = Math.random() > 0.5 ? '99,179,237' : '183,148,244';
+    }
+    update() {
+      this.x += this.vx; this.y += this.vy;
+      if (this.x < 0 || this.x > W || this.y < 0 || this.y > H) this.reset();
+    }
+    draw() { 
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(${this.color},${this.alpha})`;
+      ctx.fill();
+    }
+  }
+
+  for (let i = 0; i < 80; i++) particles.push(new Particle());
+
+  // Mouse interaction
+  let mx = -999, my = -999;
+  canvas.closest('section').addEventListener('mousemove', e => {
+    const r = canvas.getBoundingClientRect();
+    mx = e.clientX - r.left; my = e.clientY - r.top;
+  });
+  canvas.closest('section').addEventListener('mouseleave', () => { mx = -999; my = -999; });
+
+  function loop() {
+    ctx.clearRect(0, 0, W, H);
+    // Draw connections
+    for (let i = 0; i < particles.length; i++) {
+      for (let j = i + 1; j < particles.length; j++) {
+        const dx = particles[i].x - particles[j].x;
+        const dy = particles[i].y - particles[j].y;
+        const d = Math.sqrt(dx*dx + dy*dy);
+        if (d < 100) {
+          ctx.beginPath();
+          ctx.moveTo(particles[i].x, particles[i].y);
+          ctx.lineTo(particles[j].x, particles[j].y);
+          ctx.strokeStyle = `rgba(99,179,237,${0.06 * (1 - d/100)})`;
+          ctx.lineWidth = 0.5;
+          ctx.stroke();
+        }
+      }
+      // Mouse repel
+      const dx = particles[i].x - mx, dy = particles[i].y - my;
+      const d = Math.sqrt(dx*dx + dy*dy);
+      if (d < 80) {
+        particles[i].x += dx / d * 1.5;
+        particles[i].y += dy / d * 1.5;
+      }
+      particles[i].update();
+      particles[i].draw();
+    }
+    requestAnimationFrame(loop);
+  }
+  loop();
+})();
+
+/* ---- Expertise Map: 3D Parallax ---- */
+document.querySelectorAll('.em-module').forEach(mod => {
+  mod.addEventListener('mousemove', e => {
+    const rect = mod.getBoundingClientRect();
+    const cx = rect.left + rect.width / 2;
+    const cy = rect.top + rect.height / 2;
+    const dx = (e.clientX - cx) / (rect.width / 2);
+    const dy = (e.clientY - cy) / (rect.height / 2);
+    const rx = (-dy * 6).toFixed(2);
+    const ry = (dx * 6).toFixed(2);
+    mod.style.setProperty('--rx', rx + 'deg');
+    mod.style.setProperty('--ry', ry + 'deg');
+    mod.querySelector('.em-module-inner').style.transform =
+      `perspective(800px) rotateX(${rx}deg) rotateY(${ry}deg) translateZ(6px)`;
+  });
+  mod.addEventListener('mouseleave', () => {
+    mod.querySelector('.em-module-inner').style.transform = '';
+  });
+});
+</script>
+</body>
+</html>
